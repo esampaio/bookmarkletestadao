@@ -1,6 +1,6 @@
 javascript:(
   function(){
-    var css='html { overflow: auto !important } #pw-mask, #pw-content { display: none !important }';
+    var css='html { overflow: auto !important; position: initial !important } #pw-mask, #pw-content, #signwall { display: none !important }';
 
     if ('\v'=='v') {
       /* IE Only */
